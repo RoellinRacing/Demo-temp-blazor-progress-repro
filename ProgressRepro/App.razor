@@ -1,0 +1,14 @@
+@using System.Globalization
+@using System.Reflection
+@using System.Resources
+
+<h1>Blazor startup completed</h1>
+<p>UI culture: @CultureInfo.CurrentUICulture.Name</p>
+<ul>
+    @for (var number = 1; number <= 7; number++)
+    {
+        var name = $"Demo.Resources{number}";
+        var messages = new ResourceManager($"{name}.Messages", Assembly.Load(name));
+        <li>@messages.GetString("Greeting")</li>
+    }
+</ul>

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BlazorWebAssemblyLoadAllGlobalizationData>true</BlazorWebAssemblyLoadAllGlobalizationData>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.0" />
+    <ProjectReference Include="../SatelliteResources/Demo.Resources1/Demo.Resources1.csproj" />
+    <TrimmerRootAssembly Include="Demo.Resources1" />
+    <ProjectReference Include="../SatelliteResources/Demo.Resources2/Demo.Resources2.csproj" />
+    <TrimmerRootAssembly Include="Demo.Resources2" />
+    <ProjectReference Include="../SatelliteResources/Demo.Resources3/Demo.Resources3.csproj" />
+    <TrimmerRootAssembly Include="Demo.Resources3" />
+    <ProjectReference Include="../SatelliteResources/Demo.Resources4/Demo.Resources4.csproj" />
+    <TrimmerRootAssembly Include="Demo.Resources4" />
+    <ProjectReference Include="../SatelliteResources/Demo.Resources5/Demo.Resources5.csproj" />
+    <TrimmerRootAssembly Include="Demo.Resources5" />
+    <ProjectReference Include="../SatelliteResources/Demo.Resources6/Demo.Resources6.csproj" />
+    <TrimmerRootAssembly Include="Demo.Resources6" />
+    <ProjectReference Include="../SatelliteResources/Demo.Resources7/Demo.Resources7.csproj" />
+    <TrimmerRootAssembly Include="Demo.Resources7" />
+  </ItemGroup>
+</Project>

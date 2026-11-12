@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Messages.de.resx"
+                      Link="Messages.de.resx"
+                      ManifestResourceName="$(MSBuildProjectName).Messages.de" />
+  </ItemGroup>
+</Project>
